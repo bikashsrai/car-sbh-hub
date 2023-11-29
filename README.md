@@ -34,3 +34,19 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+<!-- process -->
+To create project in same folder with latest version 
+npx create-next-app@lates ./
+
+for installing headless ui  npm install @headlessui/react
+
+for Image    <Image src={`/hero.png`}  alt='car model' fill priority className='object-contain'/>
+ either height={500} width={23} or fill priotity one should be used 
+
+ After making component  import in index.tsx file of the component folder
+
+ press ctrl space for auto import in the component
+ we can pass props in the component where we import  but not in component folder
+
+ In the component folder pass that props   and also create interface
